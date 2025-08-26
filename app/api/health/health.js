@@ -1,3 +1,3 @@
-export default function handler(req, res) {
-  res.status(200).json({ status: "ok" });
+export async function GET() {
+  return Response.json({ status: "ok" });
 }
